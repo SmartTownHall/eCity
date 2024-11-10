@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:animations="clr-namespace:CommunityToolkit.Maui.Core.Animations;assembly=CommunityToolkit.Maui"
+             x:Class="c:\users\paul j\source\repos\ecityloginpage\ecityloginpage\resources\raw\logoanimation.json
+"
+             BackgroundColor="Black">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <animations:LottieAnimationView 
+            x:Name="lottieView"
+            AnimationSource="c:\users\paul j\source\repos\ecityloginpage\ecityloginpage\resources\raw\logoanimation.json
+" 
+            AutoPlay="True"
+            Loop="False"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            WidthRequest="200"
+            HeightRequest="200" />
+    </StackLayout>
+</ContentPage>
